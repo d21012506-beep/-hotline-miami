@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOTLINE MIAMI WIKI</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #100b19;
+    color: #eee;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: linear-gradient(90deg, #f00070, #8015d5);
+    text-align: center;
+    padding: 35px 15px;
+    border-bottom: 5px solid #ffce00;
+}
+header h1 {
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #000;
+}
+header p {
+    color: #fff;
+    letter-spacing: 2px;
+}
+nav {
+    background: #21142e;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: #ff3c91;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffce00;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+}
+.welcome {
+    background: #24152f;
+    padding: 25px;
+    border-left: 5px solid #ff007f;
+    margin-bottom: 25px;
+}
+h2 {
+    color: #ff3c91;
+    border-bottom: 2px solid #7132a8;
+    padding-bottom: 10px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+.card {
+    background: #21142e;
+    padding: 20px;
+    border: 1px solid #74308f;
+    transition: 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ff007f;
+}
+.card h3 {
+    color: #ffce00;
+}
+.card a {
+    color: #ff55a5;
+}
+.tag {
+    color: #ffce00;
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #21142e;
+    color: #999;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>HOTLINE MIAMI WIKI</h1>
+    <p>FAN ENCYCLOPEDIA • 50 BLESSINGS • MIAMI 1989</p>
+</header>
+
+<nav>
+    <a href="#about">Главная</a>
+    <a href="#characters">Персонажи</a>
+    <a href="#merch">Мерч</a>
+    <a href="#redux">Redux</a>
+    <a href="#secrets">Секреты</a>
+    <a href="#letters">Буквы</a>
+</nav>
+
+<div class="container">
+
+<section class="welcome" id="about">
+    <h2>Добро пожаловать!</h2>
+    <p>
+        Это фанатская энциклопедия по вселенной Hotline Miami!
+        Здесь можно узнать практически всё об игре:
+        персонажей, их историю, маски, мерч, секреты,
+        удалённый контент, версии Redux и многое другое.
+    </p>
+    <p>
+        Исследуй Майами, раскрывай тайны и помни:
+        <b>Do you like hurting other people?</b>
+    </p>
+</section>
+
+<section id="characters">
+    <h2>Персонажи</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Jacket</h3>
+            <p>Главный герой Hotline Miami. Таинственный человек в куртке и маске петуха.</p>
+            <span class="tag">ГЛАВНЫЙ ПЕРСОНАЖ</span>
+        </div>
+        <div class="card">
+            <h3>Richard</h3>
+            <p>Загадочный персонаж в маске петуха, который появляется в видениях.</p>
+            <span class="tag">ЗАГАДКА</span>
+        </div>
+        <div class="card">
+            <h3>Biker</h3>
+            <p>Персонаж, который пытается выяснить, кто стоит за загадочными звонками.</p>
+            <span class="tag">ПЕРСОНАЖ</span>
+        </div>
+        <div class="card">
+            <h3>The Fans</h3>
+            <p>Группа фанатов Джекета, которые хотят повторить его действия.</p>
+            <span class="tag">HOTLINE MIAMI 2</span>
+        </div>
+    </div>
+</section>
+
+<section id="merch">
+    <h2>Мерч и коллекционные предметы</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Маски персонажей</h3>
+            <p>Маски Джекета и других персонажей.</p>
+            <p>Цена: зависит от продавца.</p>
+            <p>Где купить: магазины коллекционных товаров.</p>
+        </div>
+        <div class="card">
+            <h3>Фигурки</h3>
+            <p>Коллекционные фигурки персонажей Hotline Miami.</p>
+            <p>Цена: уточняется.</p>
+            <p>Где купить: площадки коллекционеров.</p>
+        </div>
+        <div class="card">
+            <h3>Футболки и одежда</h3>
+            <p>Одежда с символикой и персонажами игры.</p>
+            <p>Цена: зависит от магазина.</p>
+        </div>
+    </div>
+</section>
+
+<section id="redux">
+    <h2>Redux и альтернативные версии</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Hotline Miami</h3>
+            <p>Оригинальная первая часть игры.</p>
+        </div>
+        <div class="card">
+            <h3>Hotline Miami Redux</h3>
+            <p>Раздел о Redux-версии, её изменениях и особенностях.</p>
+        </div>
+        <div class="card">
+            <h3>Super Redux</h3>
+            <p>Фанатский раздел для обсуждения модификаций, альтернативных версий и концептов.</p>
+        </div>
+    </div>
+</section>
+
+<section id="secrets">
+    <h2>Секреты и удалённый контент</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Секретные персонажи</h3>
+            <p>Необычные персонажи, скрытые появления и загадки.</p>
+        </div>
+        <div class="card">
+            <h3>Удалённые персонажи</h3>
+            <p>Информация о персонажах, которые не попали в финальную версию.</p>
+        </div>
+        <div class="card">
+            <h3>Неиспользованный контент</h3>
+            <p>Вырезанные сцены, идеи, музыка и игровые элементы.</p>
+        </div>
+    </div>
+</section>
+
+<section id="letters">
+    <h2>Буквы и загадки</h2>
+    <p>
+        Здесь будет собрана информация о загадочных буквах,
+        надписях, символах, кодах и скрытых посланиях
+        из Hotline Miami.
+    </p>
+    <div class="card">
+        <h3>Архив загадок</h3>
+        <p>Расшифровки, теории фанатов и секретные сообщения.</p>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <p>HOTLINE MIAMI WIKI — ФАНАТСКИЙ ПРОЕКТ</p>
+    <p>Неофициальная энциклопедия. Все права на игру принадлежат их владельцам.</p>
+</footer>
+
+</body>
+</html>
+  
